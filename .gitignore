@@ -1,0 +1,4 @@
+/.vs/*
+!/.vs/PewPew-AirfieldDefender c#/v17/DocumentLayout.json
+/PewPew-AirfieldDefender c#/bin/*
+/PewPew-AirfieldDefender c#/obj/*
