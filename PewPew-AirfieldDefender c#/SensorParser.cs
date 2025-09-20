@@ -88,12 +88,13 @@ namespace VL53L7CXApp
         {
             try
             {
+                //Console.WriteLine($"Line: {line}");
                 string[] parts = line.Split(',');
                 if (parts.Length < 7) return null;
 
                 return new SensorRecord
                 {
-                    Line = int.Parse(parts[0]),
+                    Line = int.Parse(parts[0])/8,
                     TargetIndex = int.Parse(parts[1]),
                     Column = int.Parse(parts[2]),
                     Distance = int.Parse(parts[3]),

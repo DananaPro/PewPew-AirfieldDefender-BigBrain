@@ -18,7 +18,7 @@ namespace VL53L7CXApp
         static void Main(string[] args)
         {
             // Open ESP32 serial port
-            esp32 = new SerialPort("COM7", 115200); // Change to your ESP32 port
+            esp32 = new SerialPort("COM3", 115200); // Change to your ESP32 port
             try
             {
                 esp32.Open();
